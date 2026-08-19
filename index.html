@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peluquería J. — Soporte</title>
+
+<style>
+  :root {
+    --ground: #F4F6F5;
+    --surface: #FFFFFF;
+    --ink: #14202A;
+    --ink-soft: #4C5D68;
+    --ink-faint: #78888F;
+    --rule: #D9E2E1;
+    --accent: #12587F;
+    --accent-ink: #0E4767;
+    --accent-soft: #E2EDF3;
+
+    --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: "Helvetica Neue", Helvetica, system-ui, -apple-system, Arial, sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0F1519;
+      --surface: #161F25;
+      --ink: #E7EEF0;
+      --ink-soft: #A2B2BA;
+      --ink-faint: #7A8990;
+      --rule: #253038;
+      --accent: #74B7E2;
+      --accent-ink: #9CCDEB;
+      --accent-soft: #16303E;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .hoja {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 5rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0 0 .5rem;
+  }
+
+  .sub { color: var(--ink-soft); margin: 0 0 2.5rem; }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    margin: 2.5rem 0 .5rem;
+  }
+
+  .tarjeta {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .tarjeta p:last-child { margin-bottom: 0; }
+  .tarjeta p:first-child { margin-top: 0; }
+
+  a { color: var(--accent); }
+
+  ul { padding-left: 1.25rem; }
+  li { margin: .4rem 0; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-faint);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<div class="hoja">
+
+<h1>Peluquería J.</h1>
+<p class="sub">Página de soporte de la aplicación para Android y iOS</p>
+
+<h2>Ayuda y contacto</h2>
+
+<div class="tarjeta">
+  <p>Para cualquier duda sobre la aplicación, un problema con una cita o una solicitud sobre tus datos, escribe a:</p>
+  <p><strong><a href="mailto:devepoler@gmail.com">devepoler@gmail.com</a></strong></p>
+  <p>Para cambiar o cancelar una cita no hace falta escribir: se hace desde la propia aplicación, en «Mis citas».</p>
+</div>
+
+<h2>Privacidad</h2>
+
+<div class="tarjeta">
+  <p>La aplicación no pide registro, ni correo, ni contraseña, ni teléfono. Qué datos trata exactamente, para qué, y cómo pedir su borrado:</p>
+  <p><strong><a href="politica-de-privacidad.html">Política de privacidad</a></strong></p>
+</div>
+
+<h2>Preguntas frecuentes</h2>
+
+<ul>
+  <li><strong>¿Necesito crearme una cuenta?</strong> No. Se abre la aplicación, se elige un apodo y ya estás dentro.</li>
+  <li><strong>¿Sirve para cualquier peluquería?</strong> No. Es la aplicación de una peluquería concreta: instalarla equivale a entrar en ella.</li>
+  <li><strong>¿Cómo borro mis datos?</strong> Escribiendo al correo de arriba con tu apodo, o pidiéndoselo al peluquero. Desinstalar la aplicación no borra la ficha.</li>
+  <li><strong>He cambiado de teléfono.</strong> Pídele al peluquero el código de vinculación de tu ficha y reclámala desde la aplicación nueva.</li>
+</ul>
+
+<footer>
+  <p>Peluquería J. · <a href="mailto:devepoler@gmail.com">devepoler@gmail.com</a></p>
+</footer>
+
+</div>
+</body>
+</html>

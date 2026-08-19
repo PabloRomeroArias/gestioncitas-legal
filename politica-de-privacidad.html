@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Peluquería J.</title>
+
+<style>
+  :root {
+    --ground: #F4F6F5;
+    --surface: #FFFFFF;
+    --surface-2: #EAEFEF;
+    --ink: #14202A;
+    --ink-soft: #4C5D68;
+    --ink-faint: #78888F;
+    --rule: #D9E2E1;
+    --rule-strong: #B9C7C6;
+    --accent: #12587F;
+    --accent-ink: #0E4767;
+    --accent-soft: #E2EDF3;
+
+    --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: "Helvetica Neue", Helvetica, system-ui, -apple-system, Arial, sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0F1519;
+      --surface: #161F25;
+      --surface-2: #1D272E;
+      --ink: #E7EEF0;
+      --ink-soft: #A2B2BA;
+      --ink-faint: #7A8990;
+      --rule: #253038;
+      --rule-strong: #33424B;
+      --accent: #74B7E2;
+      --accent-ink: #9CCDEB;
+      --accent-soft: #16303E;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  .hoja {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  header {
+    border-bottom: 2px solid var(--rule-strong);
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 .5rem;
+  }
+
+  .sub { color: var(--ink-soft); margin: 0; }
+  .fecha { color: var(--ink-faint); font-size: .9rem; margin: .75rem 0 0; }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    margin: 2.5rem 0 .75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+
+  p, li { color: var(--ink); }
+  ul { padding-left: 1.25rem; }
+  li { margin: .4rem 0; }
+
+  .destacado {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .destacado p { margin: 0; color: var(--accent-ink); }
+
+  .tabla-envoltorio { overflow-x: auto; margin: 1.25rem 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--surface);
+    font-size: .95rem;
+  }
+
+  th, td {
+    text-align: left;
+    padding: .7rem .85rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--surface-2);
+    font-weight: 600;
+    color: var(--ink-soft);
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+  }
+
+  a { color: var(--accent); }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--ink-faint);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<div class="hoja">
+
+<header>
+  <h1>Política de privacidad</h1>
+  <p class="sub">Aplicación <strong>Peluquería J.</strong> para Android y iOS</p>
+  <p class="fecha">Última actualización: 20 de agosto de 2026 · Versión 1.0.0 de la aplicación</p>
+</header>
+
+<div class="destacado">
+  <p>Esta aplicación no pide registro, ni correo electrónico, ni contraseña, ni número de teléfono. Para usarla basta con elegir un apodo. No se guarda tu nombre real, ni tu dirección, ni tu ubicación, ni ningún medio de contacto tuyo.</p>
+</div>
+
+<h2>1. Quién es responsable</h2>
+
+<p>El responsable del tratamiento de los datos es <strong>Peluquería J.</strong>, titular de la aplicación del mismo nombre.</p>
+
+<p>Correo de contacto: <a href="mailto:devepoler@gmail.com">devepoler@gmail.com</a>. Es la dirección para cualquier consulta sobre privacidad y para pedir el borrado de tus datos.</p>
+
+<h2>2. Qué datos trata la aplicación</h2>
+
+<div class="tabla-envoltorio">
+<table>
+  <thead>
+    <tr><th>Dato</th><th>Para qué</th><th>Cuándo se obtiene</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Identificador anónimo</strong> de la instalación</td>
+      <td>Distinguir tu ficha de la de otra persona y que solo tú veas tus citas</td>
+      <td>Al abrir la aplicación por primera vez. Lo genera el sistema; no procede de ningún dato tuyo</td>
+    </tr>
+    <tr>
+      <td><strong>Apodo</strong> que eliges</td>
+      <td>Que el peluquero sepa de quién es cada cita</td>
+      <td>En la pantalla inicial. Lo eliges tú y puede no tener relación con tu nombre real</td>
+    </tr>
+    <tr>
+      <td><strong>Alias</strong> que el peluquero anota en tu ficha</td>
+      <td>Que el peluquero te reconozca en su agenda</td>
+      <td>Lo escribe el peluquero. Es privado: ningún cliente lo ve, tú incluido</td>
+    </tr>
+    <tr>
+      <td><strong>Tus citas</strong>: servicio, día, hora y estado</td>
+      <td>Reservar, mostrar y cancelar la cita, y calcular los huecos libres</td>
+      <td>Al reservar, o cuando el peluquero reserva por ti</td>
+    </tr>
+    <tr>
+      <td><strong>Token del dispositivo</strong> para avisos</td>
+      <td>Enviarte el recordatorio de tu cita y los avisos de cancelación o de retraso</td>
+      <td>Solo si concedes el permiso de notificaciones. Sin permiso, no se registra</td>
+    </tr>
+    <tr>
+      <td><strong>Informes de fallos</strong></td>
+      <td>Diagnosticar y corregir errores de la aplicación</td>
+      <td>Cuando la aplicación falla. Incluyen modelo de dispositivo, versión del sistema y la traza técnica del fallo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>3. Qué no se recoge</h2>
+
+<ul>
+  <li>Nombre real, apellidos, documento de identidad.</li>
+  <li>Correo electrónico, teléfono o dirección postal del cliente.</li>
+  <li>Ubicación del dispositivo.</li>
+  <li>Datos de pago: la aplicación no cobra nada ni tiene compras dentro.</li>
+  <li>Agenda de contactos, fotografías o archivos del teléfono.</li>
+  <li>Identificadores publicitarios. <strong>No hay publicidad</strong> en la aplicación y no se hace seguimiento con fines publicitarios.</li>
+  <li>Estadísticas de uso: la aplicación no lleva analítica de comportamiento.</li>
+</ul>
+
+<p>Los datos que sí verás publicados —la dirección del local y, si existe, su teléfono de contacto— son datos <strong>de la peluquería</strong>, no de una persona usuaria. Los escribe el peluquero para que los clientes puedan localizarla.</p>
+
+<h2>4. Permisos que pide la aplicación</h2>
+
+<div class="tabla-envoltorio">
+<table>
+  <thead>
+    <tr><th>Permiso</th><th>Para qué se usa</th><th>Qué sale del teléfono</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Notificaciones</strong></td>
+      <td>Recordatorio una hora antes de la cita, y avisos de cancelación o de retraso</td>
+      <td>El token del dispositivo, que es lo que permite entregar el aviso</td>
+    </tr>
+    <tr>
+      <td><strong>Cámara</strong></td>
+      <td>Únicamente leer el código QR con el que vinculas la ficha que te creó el peluquero</td>
+      <td><strong>Nada.</strong> La imagen se procesa en el teléfono, no se guarda ni se envía</td>
+    </tr>
+    <tr>
+      <td><strong>Calendario</strong> (solo en iOS, y solo de escritura)</td>
+      <td>Añadir tu cita al calendario del teléfono, cuando tú lo pides</td>
+      <td><strong>Nada.</strong> La aplicación escribe el evento y no lee tu calendario</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Los tres permisos son opcionales. Sin ellos puedes seguir reservando y cancelando citas; lo único que pierdes es la función concreta que cada uno habilita.</p>
+
+<h2>5. Con qué base legal se tratan</h2>
+
+<ul>
+  <li><strong>Gestionar tus citas</strong> (apodo, alias, citas, identificador anónimo): es la prestación del servicio que pides al usar la aplicación.</li>
+  <li><strong>Enviarte avisos</strong> (token del dispositivo): tu consentimiento, que otorgas al conceder el permiso de notificaciones y que puedes retirar en cualquier momento desde los ajustes del sistema.</li>
+  <li><strong>Informes de fallos</strong>: interés legítimo en que la aplicación funcione y en corregir los errores que la rompen.</li>
+</ul>
+
+<h2>6. Quién más trata estos datos</h2>
+
+<p>La aplicación se apoya en tres proveedores, que actúan como encargados del tratamiento y solo tratan los datos para prestar su servicio:</p>
+
+<div class="tabla-envoltorio">
+<table>
+  <thead>
+    <tr><th>Proveedor</th><th>Qué hace</th><th>Qué datos alcanza</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Supabase</strong></td>
+      <td>Aloja la base de datos y gestiona la sesión anónima</td>
+      <td>Apodo, alias, citas, identificador anónimo y token del dispositivo</td>
+    </tr>
+    <tr>
+      <td><strong>Google (Firebase)</strong></td>
+      <td>Entrega las notificaciones (Cloud Messaging) y recoge los informes de fallos (Crashlytics)</td>
+      <td>Token del dispositivo e informes de fallos</td>
+    </tr>
+    <tr>
+      <td><strong>Apple</strong></td>
+      <td>Entrega las notificaciones en los dispositivos iOS (APNs)</td>
+      <td>Token del dispositivo</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Ninguno de ellos recibe los datos para fines propios, y no se venden ni se ceden a terceros con fines publicitarios ni de ningún otro tipo. Google y Apple pueden tratar estos datos fuera del Espacio Económico Europeo, amparados en las cláusulas contractuales tipo aprobadas por la Comisión Europea.</p>
+
+<h2>7. Cuánto tiempo se conservan</h2>
+
+<ul>
+  <li><strong>Tu ficha y tus citas</strong>: mientras sigas siendo cliente de la peluquería, o hasta que pidas el borrado.</li>
+  <li><strong>El token del dispositivo</strong>: mientras el permiso de notificaciones siga concedido. Se borra junto con tu ficha.</li>
+  <li><strong>Los informes de fallos</strong>: los conserva Firebase Crashlytics durante un máximo de 90 días.</li>
+</ul>
+
+<div class="destacado">
+  <p><strong>Desinstalar la aplicación no borra tu ficha.</strong> El apodo y las citas siguen en el servidor hasta que pides el borrado por el canal del punto siguiente.</p>
+</div>
+
+<h2>8. Tus derechos y cómo borrar tus datos</h2>
+
+<p>Puedes pedir acceso a tus datos, su rectificación, su supresión, la limitación del tratamiento y oponerte a él. Hay dos vías, y las dos valen igual:</p>
+
+<ul>
+  <li>Escribir a <a href="mailto:devepoler@gmail.com">devepoler@gmail.com</a> indicando el <strong>apodo</strong> con el que usas la aplicación. Es el único dato necesario para localizar tu ficha.</li>
+  <li>Pedírselo al peluquero en la peluquería. Él puede borrar tu ficha directamente.</li>
+</ul>
+
+<p>La solicitud se atiende en el plazo máximo de un mes. Si consideras que el tratamiento no es correcto, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
+
+<h2>9. Menores de edad</h2>
+
+<p>La aplicación está pensada para personas adultas y no recoge conscientemente datos de menores. Cuando la cita es de un menor, la reserva la hace la persona adulta responsable, con su propio apodo, o el propio peluquero desde su agenda.</p>
+
+<h2>10. Cambios en esta política</h2>
+
+<p>Si el tratamiento cambia —por ejemplo, si una versión futura de la aplicación empieza a recoger algo que hoy no recoge—, esta página se actualiza y cambia su fecha de última actualización. La versión vigente es siempre la publicada en esta dirección.</p>
+
+<footer>
+  <p>Peluquería J. · <a href="mailto:devepoler@gmail.com">devepoler@gmail.com</a> · Última actualización: 20 de agosto de 2026</p>
+</footer>
+
+</div>
+</body>
+</html>
